@@ -109,12 +109,92 @@ header a {
   text-decoration: none;
 }
 
+.servicos {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'Raleway', sans-serif;
+}
+
+.s-planejamento {
+  padding: 10px;
+  max-width: 525px;
+}
+
+.s-planejamento h3 {
+  color: #6E1E74;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+
+.s-planejamento h3::after {
+  content: '';
+  background: #6E1E74;
+  width: 28px;
+  height: 2px;
+  display: block;
+  position: relative;
+  left: -40px;
+  top: -13px;
+}
+
+.s-planejamento p {
+  color: #2B374A;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.s-planejamento h5 {
+  color: #2B374A;
+  font-size: 22px;
+  color: #6E1E74;
+  margin-top: 10px;
+}
+
+.s-opniao {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 490px;
+  padding: 15px;
+  align-items: flex-start;
+  font-weight: 400;
+  box-shadow: 0px 15px 50px rgba(113, 89, 193, 0.15);
+}
+
+.o-text {
+  margin-left: 10px;
+}
+
+.o-text h4 {
+  font-size: 16px;
+  color: #555555;
+  font-weight: 400;
+}
+
+.o-text h5 {
+  font-size: 15px;
+  color: #ABADB4;
+  font-weight: 400;
+}
+
+.o-text p {
+  font-size: 16px;
+  color: #646464;
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 850px) {
   header {
     padding: 10px;
   }
   header a {
     margin: 55px 0;
+  }
+  .s-opniao {
+    margin-top: 20px;
   }
 }
 
