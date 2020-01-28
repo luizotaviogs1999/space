@@ -64,7 +64,6 @@ header a {
 }
 
 .info-empresa {
-  max-width: 1064px;
   background-color: #fff;
   background: #FFFFFF;
   box-shadow: 0px 20px 50px rgba(113, 89, 193, 0.15);
@@ -187,15 +186,32 @@ header a {
 }
 
 .servicos-explicativo {
-  margin-top: 40px;
   background: #F6F6F6;
-  padding: 20px;
+  margin-top: 100px;
+  padding: 40px 10px;
 }
 
 .s-explicativo {
   display: flex;
   justify-content: space-between;
-  max-width: 285px;
+  flex-wrap: wrap;
+}
+
+.s-explicativo div {
+  max-width: 295px;
+  margin-right: 10px;
+}
+
+.s-explicativo div h4 {
+  color: #6E1E74;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.s-explicativo div p {
+  color: #646464;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 850px) {
