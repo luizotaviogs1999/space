@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,600,700|Raleway:400,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("../images/bg-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 130px 110px 130px;
+}
+
+header section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+header h1 {
+  max-width: 546px;
+  width: 100%;
+  font-weight: 700;
+  color: #fff;
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+header p {
+  max-width: 437px;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+header a {
+  max-width: 437px;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  background: #3DDCA1;
+  padding: 15px 10px;
+  margin: 20px 0;
+}
+
+.info-empresa {
+  max-width: 1064px;
+  background-color: #fff;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 50px rgba(113, 89, 193, 0.15);
+  border-radius: 8px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -35px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.info-empresa h3 {
+  font-size: 22px;
+  color: #2B374A;
+  font-weight: 600;
+}
+
+.info-empresa :nth-child(2) {
+  color: #6E7B91;
+  font-size: 16px;
+  margin-left: -20px;
+}
+
+.info-empresa :nth-child(3) {
+  color: #6E7B91;
+  font-size: 14px;
+  border: 0.4px solid #6E7B90;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.info-empresa :nth-child(4) {
+  color: #6E7B91;
+  font-size: 16px;
+  border: 1px solid #3DDCA1;
+  border-radius: 8px;
+  padding: 5px 10px;
+  color: #3DDCA1;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    padding: 10px;
+  }
+  header a {
+    margin: 55px 0;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .info-empresa :nth-child(2) {
+    display: none;
+  }
+}
