@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,600,700|Raleway:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,600,700|Raleway:400,700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +8,7 @@
 html,
 body {
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -46,7 +46,7 @@ header p {
   width: 100%;
   color: #fff;
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 header a {
@@ -58,14 +58,14 @@ header a {
   text-align: center;
   text-decoration: none;
   border-radius: 8px;
-  background: #3DDCA1;
+  background: #3ddca1;
   padding: 15px 10px;
   margin: 20px 0;
 }
 
 .info-empresa {
   background-color: #fff;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 20px 50px rgba(113, 89, 193, 0.15);
   border-radius: 8px;
   padding: 20px 20px;
@@ -79,31 +79,31 @@ header a {
 
 .info-empresa h3 {
   font-size: 22px;
-  color: #2B374A;
+  color: #2b374a;
   font-weight: 600;
 }
 
 .info-empresa :nth-child(2) {
-  color: #6E7B91;
+  color: #6e7b91;
   font-size: 16px;
   margin-left: -20px;
 }
 
 .info-empresa :nth-child(3) {
-  color: #6E7B91;
+  color: #6e7b91;
   font-size: 14px;
-  border: 0.4px solid #6E7B90;
+  border: 0.4px solid #6e7b90;
   border-radius: 8px;
   padding: 5px 10px;
 }
 
 .info-empresa :nth-child(4) {
-  color: #6E7B91;
+  color: #6e7b91;
   font-size: 16px;
-  border: 1px solid #3DDCA1;
+  border: 1px solid #3ddca1;
   border-radius: 8px;
   padding: 5px 10px;
-  color: #3DDCA1;
+  color: #3ddca1;
   text-align: center;
   text-decoration: none;
 }
@@ -113,7 +113,7 @@ header a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .s-planejamento {
@@ -122,15 +122,15 @@ header a {
 }
 
 .s-planejamento h3 {
-  color: #6E1E74;
+  color: #6e1e74;
   font-size: 20px;
   text-transform: uppercase;
   margin-left: 40px;
 }
 
 .s-planejamento h3::after {
-  content: '';
-  background: #6E1E74;
+  content: "";
+  background: #6e1e74;
   width: 28px;
   height: 2px;
   display: block;
@@ -140,19 +140,19 @@ header a {
 }
 
 .s-planejamento p {
-  color: #2B374A;
+  color: #2b374a;
   font-size: 35px;
   font-weight: 700;
 }
 
 .s-planejamento h5 {
-  color: #2B374A;
+  color: #2b374a;
   font-size: 22px;
-  color: #6E1E74;
+  color: #6e1e74;
   margin-top: 10px;
 }
 
-.s-opniao {
+.s-opiniao {
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -175,7 +175,7 @@ header a {
 
 .o-text h5 {
   font-size: 15px;
-  color: #ABADB4;
+  color: #abadb4;
   font-weight: 400;
 }
 
@@ -186,7 +186,7 @@ header a {
 }
 
 .servicos-explicativo {
-  background: #F6F6F6;
+  background: #f6f6f6;
   margin-top: 100px;
   padding: 40px 10px;
 }
@@ -203,7 +203,7 @@ header a {
 }
 
 .s-explicativo div h4 {
-  color: #6E1E74;
+  color: #6e1e74;
   font-size: 22px;
   margin-bottom: 5px;
   font-weight: 400;
@@ -229,7 +229,7 @@ header a {
 }
 
 .e-info h1 {
-  color: #2B374A;
+  color: #2b374a;
   font-size: 36px;
   margin-bottom: 10px;
   font-weight: 400;
@@ -242,7 +242,7 @@ header a {
 
 .e-info p {
   max-width: 539px;
-  color: #6E7B91;
+  color: #6e7b91;
   font-size: 16px;
 }
 
@@ -262,11 +262,98 @@ header a {
 }
 
 .e-sobre div h4 {
-  color: #2B374A;
-  border-left: 2px #6E1E74 solid;
+  color: #2b374a;
+  border-left: 2px #6e1e74 solid;
   padding: 0 10px;
   font-size: 22px;
   font-weight: 400;
+}
+
+.info-case {
+  display: flex;
+  margin-top: 90px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-case h1 {
+  font-size: 36px;
+  color: #2b374a;
+  max-width: 534px;
+  font-weight: 400;
+}
+
+.info-case h4 {
+  color: #6e7b91;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.info-case h4 a {
+  color: #6e1e74;
+  text-decoration: none;
+}
+
+.cases-sucesso {
+  margin-top: 80px;
+}
+
+.natura-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mais-natura {
+  padding: 40px;
+  background-image: url("../images/bgMaisNatural.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.franquia-natura h5 {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.franquia-natura h3 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.franquia-natura img {
+  position: relative;
+  top: 120px;
+}
+
+.container-cases {
+  max-width: 388px;
+  background: #fff;
+  padding: 18px;
+  box-shadow: 0px 15px 50px rgba(113, 89, 193, 0.15);
+  border-radius: 8px;
+}
+
+.container-cases h3 {
+  color: #2b374a;
+  font-weight: 600;
+  border-left: 2px #3bba91 solid;
+  padding-left: 18px;
+  margin-left: -18px;
+  font-size: 22px;
+}
+
+.container-cases p {
+  color: #6e7b91;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 850px) {
@@ -276,7 +363,7 @@ header a {
   header a {
     margin: 55px 0;
   }
-  .s-opniao {
+  .s-opiniao {
     margin-top: 20px;
   }
 }
