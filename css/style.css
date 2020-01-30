@@ -64,6 +64,10 @@ header a {
   margin: 40px 97px;
 }
 
+header a:hover {
+  transform: scale(1.01);
+}
+
 .info-empresa {
   background-color: #fff;
   background: #ffffff;
@@ -109,6 +113,10 @@ header a {
   text-decoration: none;
   background: #fff;
   cursor: pointer;
+}
+
+.info-empresa input[type="submit"]:hover {
+  transform: scale(1.01);
 }
 
 .servicos {
@@ -435,7 +443,7 @@ header a {
 }
 
 .formulario form input[type="submit"] {
-  margin-top: 20px;
+  margin-top: 40px;
   border: none;
   background: rgb(61, 220, 161);
   border-radius: 10px;
@@ -445,7 +453,38 @@ header a {
   width: 100%;
   font-size: 18px;
   font-family: Poppins;
+  cursor: pointer;
   font-weight: 700;
+}
+
+.formulario form input[type="submit"]:hover {
+  transform: scale(1.01);
+}
+
+@media screen and (max-width: 1000px) {
+  .e-sobre {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .e-sobre div {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .s-opiniao {
+    margin-top: 30px;
+  }
+  .servicos-explicativo {
+    margin-top: 49px;
+  }
+  .servicos-explicativo {
+    padding: 34px 10px;
+  }
+  .s-explicativo div {
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -463,5 +502,12 @@ header a {
 @media screen and (max-width: 880px) {
   .info-empresa :nth-child(2) {
     display: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .info-case {
+    flex-direction: column;
+    justify-content: flex-start;
   }
 }
