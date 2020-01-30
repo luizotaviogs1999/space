@@ -24,7 +24,7 @@ header {
   padding: 130px 130px 110px 130px;
 }
 
-header section {
+header div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,6 +47,7 @@ header p {
   color: #fff;
   font-size: 16px;
   font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 
 header a {
@@ -60,7 +61,7 @@ header a {
   border-radius: 8px;
   background: #3ddca1;
   padding: 15px 10px;
-  margin: 20px 0;
+  margin: 40px 97px;
 }
 
 .info-empresa {
@@ -68,7 +69,7 @@ header a {
   background: #ffffff;
   box-shadow: 0px 20px 50px rgba(113, 89, 193, 0.15);
   border-radius: 8px;
-  padding: 20px 20px;
+  padding: 19px 40px;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -89,23 +90,25 @@ header a {
   margin-left: -20px;
 }
 
-.info-empresa :nth-child(3) {
+.info-empresa input[type="text"] {
   color: #6e7b91;
   font-size: 14px;
   border: 0.4px solid #6e7b90;
   border-radius: 8px;
-  padding: 5px 10px;
+  padding: 10px 14px;
 }
 
-.info-empresa :nth-child(4) {
+.info-empresa input[type="submit"] {
   color: #6e7b91;
   font-size: 16px;
   border: 1px solid #3ddca1;
   border-radius: 8px;
-  padding: 5px 10px;
+  padding: 9px 27px;
   color: #3ddca1;
   text-align: center;
   text-decoration: none;
+  background: #fff;
+  cursor: pointer;
 }
 
 .servicos {
@@ -126,6 +129,7 @@ header a {
   font-size: 20px;
   text-transform: uppercase;
   margin-left: 40px;
+  font-weight: 400;
 }
 
 .s-planejamento h3::after {
@@ -139,17 +143,18 @@ header a {
   top: -13px;
 }
 
-.s-planejamento p {
+.s-planejamento h1 {
   color: #2b374a;
   font-size: 35px;
   font-weight: 700;
+  margin: 13px 0 20px 0;
 }
 
 .s-planejamento h5 {
   color: #2b374a;
   font-size: 22px;
   color: #6e1e74;
-  margin-top: 10px;
+  font-weight: 400;
 }
 
 .s-opiniao {
@@ -157,7 +162,7 @@ header a {
   display: flex;
   justify-content: space-between;
   max-width: 490px;
-  padding: 15px;
+  padding: 46px 43px;
   align-items: flex-start;
   font-weight: 400;
   box-shadow: 0px 15px 50px rgba(113, 89, 193, 0.15);
@@ -188,7 +193,7 @@ header a {
 .servicos-explicativo {
   background: #f6f6f6;
   margin-top: 100px;
-  padding: 40px 10px;
+  padding: 70px 10px;
 }
 
 .s-explicativo {
@@ -206,19 +211,20 @@ header a {
   color: #6e1e74;
   font-size: 22px;
   margin-bottom: 5px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .s-explicativo div p {
   color: #646464;
   font-size: 16px;
   font-weight: 400;
+  font-family: "Raleway", sans-serif;
 }
 
 .escolher-space {
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .e-info {
@@ -231,23 +237,23 @@ header a {
 .e-info h1 {
   color: #2b374a;
   font-size: 36px;
-  margin-bottom: 10px;
-  font-weight: 400;
+  margin-bottom: 13px;
+  font-weight: 600;
 }
 
-.e-info h1 a {
-  cursor: pointer;
-  text-decoration: none;
+.e-info h1 span {
+  color: #6e1e74;
 }
 
 .e-info p {
   max-width: 539px;
   color: #6e7b91;
   font-size: 16px;
+  font-weight: 400;
 }
 
 .e-sobre {
-  margin-top: 70px;
+  margin-top: 56px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -258,7 +264,7 @@ header a {
   max-width: 360px;
   box-shadow: 0px 15px 50px rgba(113, 89, 193, 0.15);
   border-radius: 8px;
-  padding: 15px 15px;
+  padding: 20px;
 }
 
 .e-sobre div h4 {
@@ -271,7 +277,7 @@ header a {
 
 .info-case {
   display: flex;
-  margin-top: 90px;
+  margin-top: 130px;
   justify-content: space-between;
   align-items: center;
 }
@@ -280,7 +286,7 @@ header a {
   font-size: 36px;
   color: #2b374a;
   max-width: 534px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .info-case h4 {
@@ -295,7 +301,7 @@ header a {
 }
 
 .cases-sucesso {
-  margin-top: 80px;
+  margin-top: 77px;
 }
 
 .natura-info {
@@ -305,7 +311,7 @@ header a {
 }
 
 .mais-natura {
-  padding: 40px;
+  padding: 63px;
   background-image: url("../images/bgMaisNatural.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -320,13 +326,17 @@ header a {
 }
 
 .icon-arrow {
-  margin-top: 162px;
+  margin-top: 135px;
   position: relative;
   margin-left: -52px;
 }
 
 .franquia-natura {
   margin-top: -266px;
+}
+
+.franquia-natura div:nth-child(2) {
+  margin-top: -144px;
 }
 
 .franquia-natura h5 {
@@ -369,7 +379,7 @@ header a {
 }
 
 .cases-sucesso::after {
-  margin: 40px auto;
+  margin: 40px auto 60px;
   max-width: 1200px;
   display: block;
   content: "";
@@ -378,10 +388,6 @@ header a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px;
-}
-
-.formulario {
-  margin-top: 80px;
 }
 
 .info-formulario {
@@ -394,12 +400,13 @@ header a {
   color: #2b374a;
   font-weight: 400;
   font-size: 36px;
+  font-weight: 600;
 }
 
 .formulario h3 {
   font-size: 16px;
   color: #6e7b91;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .formulario form {
@@ -407,7 +414,7 @@ header a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 40px auto;
+  margin: 30px auto;
 }
 
 .formulario form p {
@@ -420,22 +427,24 @@ header a {
   margin-top: 5px;
   border: 0.5px #6e7b90 solid;
   border-radius: 10px;
-  padding: 13px;
-  color: #6e7b90;
+  padding: 14px;
+  color: rgb(110, 123, 144);
   font-style: italic;
   width: 100%;
+  font-family: Poppins;
 }
 
 .formulario form input[type="submit"] {
   margin-top: 20px;
   border: none;
-  background: #3bba91;
+  background: rgb(61, 220, 161);
   border-radius: 10px;
-  padding: 13px;
+  padding: 14px;
   color: #fff;
   text-align: center;
   width: 100%;
-  font-size: 16px;
+  font-size: 18px;
+  font-family: Poppins;
   font-weight: 700;
 }
 
