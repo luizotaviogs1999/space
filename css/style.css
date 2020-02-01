@@ -510,6 +510,12 @@ header a:hover {
   }
 }
 
+@media screen and (max-width: 880px) {
+  .info-empresa :nth-child(2) {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 850px) {
   header {
     padding: 10px;
@@ -522,17 +528,23 @@ header a:hover {
   }
 }
 
-@media screen and (max-width: 880px) {
-  .info-empresa :nth-child(2) {
-    flex-direction: column;
-  }
-}
-
 @media screen and (max-width: 680px) {
+  header h1 {
+    font-size: 36px;
+  }
   .info-case {
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
     margin-bottom: 13px;
+  }
+  .formulario {
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 314px) {
+  .formulario form input[type="submit"] {
+    font-size: 14px;
   }
 }
