@@ -294,6 +294,7 @@ header a:hover {
   margin-top: 130px;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 
 .info-case h1 {
@@ -496,6 +497,9 @@ header a:hover {
 }
 
 @media screen and (max-width: 1040px) {
+  .servicos {
+    justify-content: center;
+  }
   .s-opiniao {
     margin-top: 30px;
   }
@@ -511,7 +515,7 @@ header a:hover {
 }
 
 @media screen and (max-width: 880px) {
-  .info-empresa :nth-child(2) {
+  .info-empresa :nth-child(3) {
     display: none;
   }
 }
@@ -540,6 +544,24 @@ header a:hover {
   }
   .formulario {
     margin: 0px 10px;
+  }
+  .s-explicativo {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .info-case {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .info-empresa {
+    flex-direction: column;
   }
 }
 
